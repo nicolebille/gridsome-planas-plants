@@ -2,7 +2,7 @@ module.exports = {
   siteName: 'Plantas',
   siteDescription: '',
   siteUrl: 'https://gridsome-starter-bleda.netlify.com',
-  titleTemplate: `%s | Plantas`,
+  titleTemplate: `Plantas`,
   icon: 'src/favicon-96x96.png',
 
   transformers: {
