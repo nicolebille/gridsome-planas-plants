@@ -225,6 +225,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Inter',
         'Fira Sans',
         '-apple-system',
         'BlinkMacSystemFont',
@@ -240,7 +241,7 @@ module.exports = {
         '"Noto Color Emoji"'
       ],
       serif: [ 'Cardo', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif' ],
-      mono: [ 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace' ]
+      mono: [ 'Inter', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace' ]
     },
     fontSize: {
       xs: '.75rem',

@@ -2,9 +2,9 @@
   <header>
     <div class="pt-24">
       <div class="max-w-xl md:max-w-3xl xl:max-w-4xl mx-auto text-center px-6">
-        <p class="text-gray-700 text-xs mb-2 uppercase">
+        <!-- <p class="text-gray-700 text-xs mb-2 uppercase">
           min read
-        </p>
+        </p> -->
         <h1
           class="text-3xl sm:text-5xl leading-tight font-sans font-bold mb-2 text-black"
         >
@@ -19,24 +19,12 @@
             >
             &bull;
           </span>
-          <time :datetime="post.datetime" class="capitalize">{{
+          <!-- <time :datetime="post.datetime" class="capitalize">{{
             formattedPublishDate
-          }}</time>
+          }}</time> -->
         </p>
       </div>
     </div>
-    <nav class="absolute top-0 left-0 z-20 mt-6 ml-6">
-      <g-link
-        to="/"
-        :class="[
-          post.cover
-            ? 'text-white border-white'
-            : 'text-gray-900 border-gray-400'
-        ]"
-        class="text-sm border opacity-75 hover:opacity-100 rounded-full px-4 py-2 transition-opacity duration-300"
-        >&larr; Home</g-link
-      >
-    </nav>
   </header>
 </template>
 
