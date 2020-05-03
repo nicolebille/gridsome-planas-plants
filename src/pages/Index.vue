@@ -85,8 +85,17 @@
         <div
           class="p-5 flex justify-center items-center md:items-end md:justify-end"
         >
-          <a href="https://www.instagram.com/plantas_plants/" target="_blank"
-            >Click here out more photos on Instagram
+          <a
+            href="https://www.instagram.com/plantas_plants/"
+            target="_blank"
+            class="flex items-center"
+            >More photos on
+
+            <g-image
+              src="../../static/images/instagram.png"
+              class="ml-2 block"
+              style="width: 35px;"
+            />
           </a>
         </div>
         <div class="full">
